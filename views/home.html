@@ -17,12 +17,43 @@
     <div class="w-container simulator-container">
       <div class="section-inside">
         <div class="simulator-title">Change the aperture, shutter speed and ISO to see result</div>
-        <li ng-repeat="key in settings | filter:search:strict |limitTo:1">
-          <img class="image"ng-src="images/sim/{{key.filename}}.jpg" alt="Photo of {{key.filename}}">
-          <p id="hello" >{{key.aperture}}</p>
-        </li>
+        <div ng-switch="isLoading">
+
+    <!-- BEGIN: Loading View. -->
+    <p ng-switch-when="true">
+
+      Your images are being loaded... {{ percentLoaded }}%
+
+    </p>
+    <!-- END: Loading View. -->
+
+    <!-- BEGIN: Results View. -->
+    <div 
+    ng-switch-when="false" 
+    ng-switch="isSuccessful">
+
+    <p ng-switch-when="true">
+
+      <img 
+      ng-repeat="src in imageLocations | filter:search:strict |limitTo:1"
+      ng-src="{{src.filename}}"
+      class="image"
+      />
+
+    </p>
+
+    <p ng-switch-when="false">
+
+      <strong>Oops</strong>: One of your images failed to load :(
+
+    </p>
+
+  </div>
+  <!-- END: Results View. -->
+
+</div>
         <div class="slider-div">
-          <input ng-model="search.filename" type="range" min="1" max="8" step="1" value="1">
+          <input ng-model="search.slider1" type="range" min="1" max="8" step="1" value="1">
         </div>
         <div class="slider-div mid"></div>
         <div class="slider-div"></div>
