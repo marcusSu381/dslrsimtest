@@ -1,0 +1,49 @@
+
+<div class="jumbotron">
+    <div class="textsection">
+      <div class="w-container textcontainer"><img class="logo" src="images/icon.svg" width="150" alt="54caf7e3c7b1fb7312fd5193_icon.svg">
+        <h1 class="home-title">DSLRsim</h1>
+        <p class="home-text">CamLab helps you quickly explore the shutter speed, aperture, IOS on a DSLR and see the result in the meantime.</p><a class="try-ti" href="#simulator-section">Try it</a>
+      </div>
+    </div>
+    <div class="w-nav nav-bar" data-collapse="none" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container menu-container">
+        <nav class="w-nav-menu w-clearfix nav-menu" role="navigation"><a class="w-nav-link nav-link" href="#/settings">Settings</a><a class="w-nav-link nav-link" href="#/ency">Ency</a><a class="w-nav-link nav-link" href="#/home">Home</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="simulator-section" id="simulator-section">
+    <div class="w-container simulator-container">
+      <div class="section-inside">
+        <div class="simulator-title">Change the aperture, shutter speed and ISO to see result</div>
+        <li ng-repeat="key in settings | filter:search:strict |limitTo:1">
+          <img class="image"ng-src="images/sim/{{key.filename}}.jpg" alt="Photo of {{key.filename}}">
+          <p id="hello" >{{key.aperture}}</p>
+        </li>
+        <div class="slider-div">
+          <input ng-model="search.filename" type="range" min="1" max="8" step="1" value="1">
+        </div>
+        <div class="slider-div mid"></div>
+        <div class="slider-div"></div>
+        <div class="more-about">For more about DSLR mechanism please access to the encyclopaedia page.</div><a class="try-ti seeency" href="#/ency">See Ency</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="w-container footer-container">
+      <div class="footer-text">© 2015 Made by Marcus &amp; Joey</div>
+    </div>
+  </div>
+    
+    <script type="text/javascript" src="js/rangeslider.js"></script>
+    
+    <script type="text/javascript" src="js/slider.js"></script>
+
+    <script>
+    //console.log(document.getElementById("hello").innerHTML);
+
+
+    console.log(myapp.settings); //this one works in the ng-repeat(line20),but console.log shows undefined.
+    console.log(myapp.demotext[0]);// this one doesn't work in ng-repeat(line28).
+    </script>
