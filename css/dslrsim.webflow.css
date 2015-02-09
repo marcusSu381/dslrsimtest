@@ -168,6 +168,9 @@ p {
   color: #5e5e5e;
   font-size: 17px;
 }
+.try-ti.seeency.save{
+  
+}
 .simulator-container {
   height: auto;
   margin-top: 31px;
@@ -205,6 +208,9 @@ p {
 }
 .image {
   box-shadow: black 0px 7px 24px -7px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .settings-col {
   display: block;
@@ -518,6 +524,9 @@ p {
   .list-text {
     margin: 20px auto auto 0px;
     padding-top: 0px;
+  }
+  .imagecontainer {
+    
   }
 }
 

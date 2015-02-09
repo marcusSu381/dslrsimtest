@@ -33,13 +33,10 @@
     ng-switch="isSuccessful">
 
     <p ng-switch-when="true">
+      <div  class="imagecontainer" ng-repeat="src in imageLocations">
+      <img ng-src="{{src.filename}}" class="image"/>
 
-      <img 
-      ng-repeat="src in imageLocations | filter:search:strict |limitTo:1"
-      ng-src="{{src.filename}}"
-      class="image"
-      />
-
+      </div>
     </p>
 
     <p ng-switch-when="false">
@@ -57,7 +54,9 @@
         </div>
         <div class="slider-div mid"></div>
         <div class="slider-div"></div>
-        <div class="more-about">For more about DSLR mechanism please access to the encyclopaedia page.</div><a class="try-ti seeency" href="#/ency">See Ency</a>
+        <div class="more-about">You can save this setting, or for more about DSLR mechanism please access to the encyclopaedia page.
+        </div>
+        <a class="try-ti seeency save" href="">Save</a><br><a class="try-ti seeency" href="#/ency">See Ency</a>
       </div>
     </div>
   </div>
@@ -70,7 +69,7 @@
     <script type="text/javascript" src="js/rangeslider.js"></script>
     
     <script type="text/javascript" src="js/slider.js"></script>
-
+    <script type="text/javascript" src="js/save.js"></script>
     <script>
     //console.log(document.getElementById("hello").innerHTML);
 
