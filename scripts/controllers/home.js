@@ -41,7 +41,16 @@ myapp.controller(
                 // NOTE: "cache" attribute is to prevent images from caching in the 
                 // browser (for the sake of the demo).
                 $scope.imageLocations = [
-
+                {'filename': 'images/merge/3/3/3/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
                 //11
                 {'filename': 'images/merge/1/1/1/img.jpg',
                 'aperture':'f/2',
@@ -345,6 +354,975 @@ myapp.controller(
                 
                 'ss':"1/125",
                 'slider2':'1',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //22
+                {'filename': 'images/merge/2/2/1/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/2/2/2/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/2/2/3/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/2/2/4/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/2/2/5/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //23
+                {'filename': 'images/merge/2/3/1/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/2/3/2/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/2/3/3/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/2/3/4/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/2/3/5/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //24
+                {'filename': 'images/merge/2/4/1/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/2/4/2/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/2/4/3/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/2/4/4/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/2/4/5/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //25
+                {'filename': 'images/merge/2/5/1/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/2/5/2/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/2/5/3/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'80000',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/2/5/4/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/2/5/5/img.jpg',
+                'aperture':'f/4',
+                'slider1':'2',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //31
+                {'filename': 'images/merge/3/1/1/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/3/1/2/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/3/1/3/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/3/1/4/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/3/1/5/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //32
+                {'filename': 'images/merge/3/2/1/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/3/2/2/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/3/2/3/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/3/2/4/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/3/2/5/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //33
+                {'filename': 'images/merge/3/3/1/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/3/3/2/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                // {'filename': 'images/merge/3/3/3/img.jpg',
+                // 'aperture':'f/5.6',
+                // 'slider1':'3',
+                
+                // 'ss':"1/300",
+                // 'slider2':'3',
+                
+                // 'iso':'800',
+                // 'slider3':'3'
+                // },
+                {'filename': 'images/merge/3/3/4/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/3/3/5/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //34
+                {'filename': 'images/merge/3/4/1/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/3/4/2/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/3/4/3/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/3/4/4/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/3/4/5/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //35
+                {'filename': 'images/merge/3/5/1/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/3/5/2/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/3/5/3/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/3/5/4/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/3/5/5/img.jpg',
+                'aperture':'f/5.6',
+                'slider1':'3',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //41
+                {'filename': 'images/merge/4/1/1/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/4/1/2/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/4/1/3/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/4/1/4/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/4/1/5/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //42
+                {'filename': 'images/merge/4/2/1/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/4/2/2/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/4/2/3/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/4/2/4/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/4/2/5/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //43
+                {'filename': 'images/merge/4/3/1/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/4/3/2/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/4/3/3/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/4/3/4/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/4/3/5/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //44
+                {'filename': 'images/merge/4/4/1/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/4/4/2/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'40000',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/4/4/3/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/4/4/4/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/4/4/5/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //45
+                {'filename': 'images/merge/4/5/1/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/4/5/2/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/4/5/3/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/4/5/4/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/4/5/5/img.jpg',
+                'aperture':'f/11',
+                'slider1':'4',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //51
+                {'filename': 'images/merge/5/1/1/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/5/1/2/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/5/1/3/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/5/1/4/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/5/1/5/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/125",
+                'slider2':'1',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //52
+                {'filename': 'images/merge/5/2/1/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/5/2/2/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/5/2/3/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/5/2/4/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/5/2/5/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/200",
+                'slider2':'2',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //53
+                {'filename': 'images/merge/5/3/1/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/5/3/2/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/5/3/3/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/5/3/4/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/5/3/5/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/300",
+                'slider2':'3',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //54
+                {'filename': 'images/merge/5/4/1/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/5/4/2/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/5/4/3/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/5/4/4/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/5/4/5/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/400",
+                'slider2':'4',
+                
+                'iso':'3200',
+                'slider3':'5'
+                },
+                //55
+                {'filename': 'images/merge/5/5/1/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'100',
+                'slider3':'1'
+                },
+                {'filename': 'images/merge/5/5/2/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'400',
+                'slider3':'2'
+                },
+                {'filename': 'images/merge/5/5/3/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'800',
+                'slider3':'3'
+                },
+                {'filename': 'images/merge/5/5/4/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/500",
+                'slider2':'5',
+                
+                'iso':'1600',
+                'slider3':'4'
+                },
+                {'filename': 'images/merge/5/5/5/img.jpg',
+                'aperture':'f/22',
+                'slider1':'5',
+                
+                'ss':"1/500",
+                'slider2':'5',
                 
                 'iso':'3200',
                 'slider3':'5'

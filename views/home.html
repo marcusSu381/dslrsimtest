@@ -33,7 +33,7 @@
     ng-switch="isSuccessful">
 
     <p ng-switch-when="true">
-      <div  class="imagecontainer" ng-repeat="src in imageLocations">
+      <div  class="imagecontainer" ng-repeat="src in imageLocations | filter:search1:strict| filter:search2:strict| filter:search3:strict | limitTo:1">
       <img ng-src="{{src.filename}}" class="image"/>
 
       </div>
@@ -50,10 +50,14 @@
 
 </div>
         <div class="slider-div">
-          <input ng-model="search.slider1" type="range" min="1" max="8" step="1" value="1">
+          <input ng-model="search1.slider1" type="range" min="1" max="5" step="1" value="3">
         </div>
-        <div class="slider-div mid"></div>
-        <div class="slider-div"></div>
+        <div class="slider-div mid">
+          <input ng-model="search2.slider2" type="range" min="1" max="5" step="1" value="3">
+        </div>
+        <div class="slider-div">
+          <input ng-model="search3.slider3" type="range" min="1" max="5" step="1" value="3">
+        </div>
         <div class="more-about">You can save this setting, or for more about DSLR mechanism please access to the encyclopaedia page.
         </div>
         <a class="try-ti seeency save" href="">Save</a><br><a class="try-ti seeency" href="#/ency">See Ency</a>
